@@ -7,7 +7,7 @@ if [[ $# -lt 1 ]]; then
       exit 1;
 fi
 
-SIMVA_INFRA_GIT_REPO_URL=https://github.com/e-ucm/simva-infra.git
+SIMVA_INFRA_GIT_REPO_URL=https://github.com/NEON-Young-Norway-Study/neon-infra.git
 SIMVA_INFRA_GIT_REF=$1
 SIMVA_INFRA_FOLDER=$(dirname "$0")/
 ###################################################################
