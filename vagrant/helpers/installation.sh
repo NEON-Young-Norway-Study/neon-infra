@@ -205,22 +205,22 @@ if [ ! -d /home/vagrant/LimesurveyXAPITracker ]; then
 fi
 if [ ! -d /home/vagrant/pumva ]; then
   mkdir -p /home/vagrant/pumva
-  git clone --depth 1 --branch ${SIMVA_PUMVA_GIT_REF} https://github.com/e-ucm/pumva.git /home/vagrant/pumva
+  git clone --depth 1 --branch ${SIMVA_PUMVA_GIT_REF} https://github.com/NEON-Young-Norway-Study/pumva.git /home/vagrant/pumva
   chown -R vagrant:vagrant /home/vagrant/pumva
 fi
 if [ ! -d /home/vagrant/pumva-front ]; then
   mkdir -p /home/vagrant/pumva-front
-  git clone --depth 1 --branch ${SIMVA_PUMVA_FRONT_GIT_REF} https://github.com/e-ucm/pumva-front.git /home/vagrant/pumva-front
+  git clone --depth 1 --branch ${SIMVA_PUMVA_FRONT_GIT_REF} https://github.com/NEON-Young-Norway-Study/pumva-front.git /home/vagrant/pumva-front
   chown -R vagrant:vagrant /home/vagrant/pumva-front
 fi
 if [ ! -d /home/vagrant/simva ]; then
   mkdir -p /home/vagrant/simva
-  git clone --depth 1 --branch v${SIMVA_SIMVA_VERSION} https://github.com/e-ucm/simva.git /home/vagrant/simva
+  git clone --depth 1 --branch v${SIMVA_SIMVA_VERSION} https://github.com/NEON-Young-Norway-Study/simva.git /home/vagrant/simva
   chown -R vagrant:vagrant /home/vagrant/simva
 fi
 if [ ! -d /home/vagrant/simva-front ]; then
   mkdir -p /home/vagrant/simva-front
-  git clone --depth 1 --branch v${SIMVA_SIMVA_FRONT_VERSION} https://github.com/e-ucm/simva-front.git /home/vagrant/simva-front
+  git clone --depth 1 --branch v${SIMVA_SIMVA_FRONT_VERSION} https://github.com/NEON-Young-Norway-Study/simva-front.git /home/vagrant/simva-front
   chown -R vagrant:vagrant /home/vagrant/simva-front
 fi
 if [ ! -d /home/vagrant/simva-trace-allocator ]; then
@@ -230,7 +230,7 @@ if [ ! -d /home/vagrant/simva-trace-allocator ]; then
 fi
 if [ ! -d /home/vagrant/t-mon ]; then
   mkdir -p /home/vagrant/t-mon
-  git clone --depth 1 --branch "master" https://github.com/e-ucm/t-mon.git /home/vagrant/t-mon
+  git clone --depth 1 --branch ${SIMVA_TMON_GIT_REF} https://github.com/NEON-Young-Norway-Study/t-mon.git /home/vagrant/t-mon
   chown -R vagrant:vagrant /home/vagrant/t-mon
 fi
 if [ ! -d /home/vagrant/xasu-js ]; then

@@ -55,10 +55,10 @@ check_and_rebuild() {
 }
 
 if [[ ${RUNCHECKOUTCODE} = true ]] ; then
-    SIMVA_API_GIT_REPO_URL=https://github.com/e-ucm/simva.git
+    SIMVA_API_GIT_REPO_URL=https://github.com/NEON-Young-Norway-Study/simva.git
     SIMVA_API_REF="$(resolve_git_ref simva "v${SIMVA_SIMVA_VERSION}")"
 
-    SIMVA_FRONT_GIT_REPO_URL=https://github.com/e-ucm/simva-front.git
+    SIMVA_FRONT_GIT_REPO_URL=https://github.com/NEON-Young-Norway-Study/simva-front.git
     SIMVA_FRONT_REF="$(resolve_git_ref simva-front "v${SIMVA_SIMVA_FRONT_VERSION}")"
 
     SIMVA_TRACE_ALLOCATOR_GIT_REPO_URL=https://github.com/e-ucm/simva-trace-allocator.git

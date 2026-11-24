@@ -43,8 +43,14 @@ export SIMVA_DOCKHAND_HOST_SUBDOMAIN="dockhand"
 #######################
 #Git reference branch
 export CSP_REPORTER_GIT_REF="master"
-export SIMVA_PUMVA_GIT_REF="v0.0.1-alpha"
-export SIMVA_PUMVA_FRONT_GIT_REF="v0.0.1-alpha"
+export SIMVA_API_GIT_REF="sqlite-lrs-yetanalytics-working"
+export SIMVA_FRONT_GIT_REF="sqlite-lrs-yetanalytics-working"
+export SIMVA_TRACE_ALLOCATOR_GIT_REF="v2.0.0"
+export SIMVA_PUMVA_GIT_REF="main"
+export SIMVA_PUMVA_FRONT_GIT_REF="main"
+export SIMVA_LIMESURVEY_DOCKER_GIT_REF="6.16.16-apache"
+export SIMVA_TMON_GIT_REF="plotly-dash"
+export SIMVA_TMON_ANACONDA_GIT_REF="v0.0.1"
 export SIMVA_XASUJS_GIT_REF="v2.3.0"
 
 export SIMVA_KEYCLOAK_EXTENSION_LOCAL_DEPLOYMENT=false
@@ -81,5 +87,4 @@ export SIMVA_JUPYTER_PASSWORD="CHANGEME1234"
 
 # Portainer admin password
 export SIMVA_PORTAINER_ADMIN_PASSWORD="CHANGEME1234"
-
 

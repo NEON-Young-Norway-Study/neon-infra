@@ -28,10 +28,10 @@ source ${SIMVA_BIN_HOME}/check-checksum.sh;
 source "${SIMVA_BIN_HOME}/extension-helper.sh"
 
 if [[ ${RUNCHECKOUTCODE} = true ]] ; then
-    SIMVA_PUMVA_GIT_REPO_URL=https://github.com/e-ucm/pumva.git
+    SIMVA_PUMVA_GIT_REPO_URL=https://github.com/NEON-Young-Norway-Study/pumva.git
     SIMVA_PUMVA_GIT_REF="$(resolve_git_ref pumva "${SIMVA_PUMVA_GIT_REF:-latest}")"
 
-    SIMVA_PUMVA_FRONT_GIT_REPO_URL=https://github.com/e-ucm/pumva-front.git
+    SIMVA_PUMVA_FRONT_GIT_REPO_URL=https://github.com/NEON-Young-Norway-Study/pumva-front.git
     SIMVA_PUMVA_FRONT_GIT_REF="$(resolve_git_ref pumva-front "${SIMVA_PUMVA_FRONT_GIT_REF:-latest}")"
 
     ###################################################################

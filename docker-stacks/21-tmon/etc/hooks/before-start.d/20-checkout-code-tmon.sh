@@ -21,7 +21,7 @@ if [[ "${SIMVA_ENVIRONMENT}" == "development" ]]; then
 fi
 
 if [[ ${RUNCHECKOUTCODE} == true ]] ; then
-    SIMVA_TMON_GIT_REPO_URL=https://github.com/e-ucm/t-mon.git
+    SIMVA_TMON_GIT_REPO_URL=https://github.com/NEON-Young-Norway-Study/t-mon.git
     # the checked out ref follows the installed version (tag vX.Y.Z)
     SIMVA_TMON_REF="v${SIMVA_TMON_VERSION}"
 
